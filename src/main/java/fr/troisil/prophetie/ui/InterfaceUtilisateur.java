@@ -52,7 +52,7 @@ public class InterfaceUtilisateur {
     }
 
     public void afficherEtatJoueur(Joueur j) {
-        System.out.println("Etat du Joueur [" + j.getNom() + "] : " + j.getPv() + " PV / " + j.estVivant());
+        System.out.println("Etat du Joueur [" + j.getNom() + "] : " + j.getPv() + " PV");
     }
 
     public void afficherGameOver(boolean victoire) {
