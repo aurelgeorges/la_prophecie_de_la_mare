@@ -1,6 +1,7 @@
 # La Prophétie de la Mare
 
-Projet scolaire de jeu textuel en Java, basé sur une architecture UML stricte.
+Projet scolaire de jeu textuel en Java, basé sur une architecture UML stricte. <br>
+Liens vers ce projet : https://github.com/aurelgeorges/la_prophecie_de_la_mare
 
 ## Sommaire
 
