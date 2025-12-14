@@ -53,23 +53,29 @@ Le projet respecte l'architecture Maven standard :
 
 ## Conception et Architecture
 
-Le projet a été conçu en respectant strictement les diagrammes UML suivants (/docs/images) :
+Notre démarche de conception a suivi une progression logique : nous avons commencé par définir les besoins (Diagramme de Cas d'utilisation, Cahier des charges) avant de nous pencher sur la dynamique du jeu (Diagrammes de Séquence, d'Activité et d'États-Transitions). Une fois le fonctionnement clair, nous avons établi l'architecture via les diagrammes de Classes et d'Objets. Enfin, la phase de développement a permis de confronter la théorie à la pratique : nous avons adopté une approche itérative en mettant à jour nos diagrammes initiaux pour corriger les incohérences révélées par le codage.
 
 ### Diagramme de Cas d'Utilisation
 Illustre les interactions du joueur avec le système.
-![Diagramme de Cas d'Utilisation](docs/images/diagramme_cas_utilisation.jpg)
+![Diagramme de Cas d'Utilisation](docs/diagrammes/diagramme_cas_utilisation.jpg)
 
 ### Diagramme de Classes
 Définit la structure statique du jeu, les entités et leurs relations.
-![Diagramme de Classes](docs/images/diagramme_classes.png)
+![Diagramme de Classes](docs/diagrammes/diagramme_classes.png)
 
 ### Diagramme d'État-Transition
 Décrit le cycle de vie du jeu et les transitions entre les différentes phases (Exploration, Combat, Énigme, Trésor).
-![Diagramme d'État-Transition](docs/images/diagramme_etats.png)
+![Diagramme d'État-Transition](docs/diagrammes/diagramme_etats.png)
 
 ### Diagramme d'Activité
 Montre le flux détaillé des actions du joueur et du système.
-![Diagramme d'Activité](docs/images/diagramme_activite.jpg)
+![Diagramme d'Activité](docs/diagrammes/diagramme_activite.jpg)
+
+### Diagramme d'Objet
+![Diagramme d'Objet](docs/diagrammes/diagramme_objet.png)
+
+### Diagramme de séquences
+Les diagrammes de séquences se trouvents dans le dossier suivant : /docs/diagrammes/diagrammes_sequences
 
 ## Auteur
 Aurel GEORGES
